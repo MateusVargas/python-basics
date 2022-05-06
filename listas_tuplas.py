@@ -1,5 +1,5 @@
 lista = [45, 0, 4, 8]
-lista_palavras = ['gato','casa','sexo','limão']
+lista_palavras = ['gato','casa','aviao','limão']
 
 print(lista_palavras[3])
 print('Soma dos elementos da lista: ',sum(lista))
@@ -29,7 +29,7 @@ else:
 
 lista.pop() # retirando o ultimo elemento
 lista_palavras.pop(1) # apagando elemento na posição 1
-lista_palavras.remove('sexo') # retirando o elemento pelo nome
+lista_palavras.remove('aviao') # retirando o elemento pelo nome
 
 #duplicando os valores da lista
 nova_lista = lista_palavras * 2
